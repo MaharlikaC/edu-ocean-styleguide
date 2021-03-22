@@ -60,6 +60,8 @@ html, body {
 #type1{
   height: 100px;
   width: 200px;
+p {
+  font-size: 1em;
 }
 
 /*basic layout*/
