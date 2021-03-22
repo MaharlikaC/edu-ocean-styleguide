@@ -10,8 +10,50 @@
     </script>
 
     <style>
+        .main {
+        height: 180vh;
+        }
+
         img {
-            width: 30%;
+            width: 20%;
+        }
+
+        .desc {
+            max-width: 50%;
+            font-size: 1.5em;
+        }
+
+        #firstlogo {
+            position: relative;
+            float: right;
+            right:5%;
+            top: -60px;
+            width: 35%;
+        }
+
+        .userestrict {
+            position: relative;
+            top: 200px;
+            width: 90%;
+        }
+
+        .logo {
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .blk {
+            background-color: white;
+            border: white 2px solid;
+        }
+
+        .colour {
+            background-color: white;
+            border: white 2px solid;
+        }
+
+        .white {
+            border: white 2px solid;
         }
     </style>
 </head>
@@ -30,11 +72,44 @@
 
     <div class="main col">
         
-        <h1 class="title">Logo</h1>
-        <h2 class="subtitle">subtitle</h2>
-        <p>descriptions and stuff</p>
+        <h1 class="title">Logo & Usage</h1>
+        <div class="top">
+        <img src="images/logo_white.svg" id="firstlogo">
+        <h2 class="subtitle">Edu-Ocean Logo</h2>
+        <p class="desc">Edu-Ocean’s logo is of three fish swimming in a triangular formation, reminisant of the universal recycling symbol. The wake of the fish can be seen as either ocean water or branches of coral, forming a circle and further unifying the logo. The three fish represent the cornerstones of Edu-Ocean: Education, Preservation and The Ocean itself.</p>
+        </div>
 
-        <img src="images/logo.svg" class="logo" id="colorlogo">
+        <div class="userestrict">
+            <h2 class="subtitle">Correct Usage</h2>
+            <p>The Edu-Ocean logo is not to be altered in any way from what is specified here.</p>
+            <div class="useyes">
+                <div>
+                    <img src="images/logo_black.svg" class="logo blk">
+                    <img src="images/logo.svg" class="logo colour">
+                    <img src="images/logo_white.svg" class="logo white">
+                </div>
+                <p>The logo can have a black fill. Use on lighter coloured backgrounds. Each fish must be at a 45 degree angle.</p>
+                <p>If using colour then the fish must be #0378A6(blue) and the waves can be #04BFAD(caribbean green), use against lighter coloured backgrounds.</p>
+                <p>The logo can also be white for use against medium to dark coloured backgrounds</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="subtitle">Incorrect Usage</h2>
+            <br>
+            <div class="usestretch">
+                <div>
+                    <img src="images/logo_white.svg" class="logo white stretchwidth">
+                    <img src="images/logo_white.svg" class="logo white stretchheight">
+                    <img src="images/logo_white.svg" class="logo white skew">
+                    <img src="images/logo_white.svg" class="logo rotate">
+                </div>
+                <p>The edu-ocean logo should not be stretched width wise, height wise, skewed, or rotated</p>
+            </div>
+        </div>
+
+
     
 
     </div>

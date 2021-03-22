@@ -55,10 +55,12 @@ html, body {
     margin: 0;
     padding: 0;
     text-shadow: black 1px 1px 3px;
+    font-size: 2em;
+
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 /*basic layout*/
