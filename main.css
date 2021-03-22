@@ -65,3 +65,63 @@ html, body {
   background-color: #0B4E8A;
   min-height: 100vh;
 }
+
+
+/*color page css*/
+#circle {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+  border-color: white;
+
+}
+
+#img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 8px white solid;
+  margin: 20px;
+}
+
+img {
+  width: 100%;
+  border: 8px white solid;
+
+}
+
+.code {
+  font-size: 43px;
+}
+
+.button1 {
+  height: 80px;
+  width: 250px;
+  background-color: #20BEAD;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2 {
+  height: 80px;
+  width: 250px;
+  background-color: #1995C9;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around
+}
+
+.subtitle {
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
