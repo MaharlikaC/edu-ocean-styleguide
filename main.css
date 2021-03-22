@@ -57,7 +57,12 @@ html, body {
     text-shadow: black 1px 1px 3px;
 }
 
-p {
+#type1{
+  height: 100px;
+  width: 200px;
+  font-family: 'Roboto', sans-serif;
+
+p{
   font-size: 1em;
 }
 
