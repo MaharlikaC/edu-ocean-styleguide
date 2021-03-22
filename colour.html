@@ -10,7 +10,58 @@
     </script>
 
     <style>
+        /*color page css*/
         
+        #img {
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        border: 8px white solid;
+        margin: 20px;
+        background-color: #1995C9;
+        }
+
+        img {
+        width: 100%;
+        border: 8px white solid;
+
+        }
+
+        .code {
+        font-size: 43px;
+        }
+
+        .button1 {
+        height: 80px;
+        width: 250px;
+        background-color: #20BEAD;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .button2 {
+        height: 80px;
+        width: 250px;
+        background-color: #1995C9;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around
+        }
+
+        .subtitle {
+        margin-bottom: 80px;
+        margin-top: 50px;
+        }
+
     </style>
 </head>
 
@@ -29,8 +80,29 @@
     <div class="main">
         
         <h1 class="title">Colour Palette</h1>
-        <h2 class="subtitle">subtitle</h2>
-        <p>descriptions and stuff</p>
+        <h2 class="subtitle">The colour blue is the most prominent of our brand's colour scheme. It's a delicate combination to the ocean's colour that makes us feel as if we're emerging from the sea.</h2>
+        <div id="img"></div>
+        <h2 class="subtitle">Secondary color</h2>
+        <img src="images/secondary.png">
+        <p class="code">#024959, #04BFAD, #F2E205, #8C7503, #D96704</p>
+        <h2 class="subtitle">Background color</h2>
+        <img src="images/background.png">
+        <p class="code">#034CBC, #023059, #0378A6, #91E0F2, #98A633</p>
+        <h2 class="subtitle">Button color</h2>
+        
+    <div class="flex">
+        <div class="button1">
+            <div class="code">Start</div>
+        </div>
+        <div class="button2">
+            <div class="code">About</div>
+        </div>
+    </div>
+    <div class="flex">
+        <p class="code">#20BEAD</p>
+        <p class="code">#1995C9</p>
+    </div>
+      
 
     </div>
 

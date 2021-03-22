@@ -59,8 +59,13 @@ html, body {
 
 }
 
+<<<<<<< HEAD
 p {
   font-size: 1.3em;
+=======
+p{
+  font-size: 1em;
+>>>>>>> edad1329f91d575bf6647743304f20dbbee5b22e
 }
 
 /*basic layout*/
@@ -71,3 +76,5 @@ p {
   background-color: #0B4E8A;
   min-height: 100vh;
 }
+
+
