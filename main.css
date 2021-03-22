@@ -57,6 +57,11 @@ html, body {
     text-shadow: black 1px 1px 3px;
 }
 
+#type1{
+  height: 100px;
+  width: 200px;
+}
+
 /*basic layout*/
 
 .main {
