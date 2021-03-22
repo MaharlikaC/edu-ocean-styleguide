@@ -57,6 +57,10 @@ html, body {
     text-shadow: black 1px 1px 3px;
 }
 
+p {
+  font-size: 1em;
+}
+
 /*basic layout*/
 
 .main {
