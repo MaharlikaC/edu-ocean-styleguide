@@ -1,0 +1,85 @@
+.desc {
+  width: 60%;
+}
+
+#firstlogo {
+  position: relative;
+  float: right;
+  right:5%;
+  top: -60px;
+  width: 30%;
+}
+
+.userestrict {
+  position: relative;
+  top: 150px;
+  width: 95%;
+}
+
+.logo {
+  padding: 30px;
+  margin: 10px;
+  transition: 0.4s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  color: white;
+}
+
+.logoimgs {
+  display: flex;
+  width: 30%;
+}
+
+.logoh_imgs {
+  display: flex;
+  width: 30%;
+}
+
+.logov_imgs {
+  display: flex;
+  width: 30%;
+}
+
+.wrongimgs {
+  display: flex;
+  width: 23%;
+  margin-bottom: 200px;
+}
+
+.blk {
+  background-color: white;
+  border: white 2px solid;
+  border-radius: 40px;
+}
+
+.colour {
+  background-color: white;
+  border: white 2px solid;
+  border-radius: 40px;
+}
+
+.white {
+  border: white 2px solid;
+  border-radius: 40px;
+}
+
+.useswrong {
+  margin: 80px 0;
+}
+.stretchwidth {
+  transform: scaleY(0.7);
+}
+
+.stretchheight {
+  transform: scaleX(0.7);
+}
+
+.skew {
+  transform: skewY(20deg) scale(0.9);
+}
+
+.rotate {
+  transform: rotate(60deg);
+}

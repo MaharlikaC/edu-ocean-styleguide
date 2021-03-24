@@ -1,0 +1,37 @@
+.main {
+  height: 150vh;
+  flex-direction: column;
+  }
+
+p {
+  max-width: 80%;
+}
+
+.typestyle{
+  border: 5 px dashed red;
+}
+
+#type1{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#type2{
+  font-family: 'Lato', sans-serif;
+}
+
+#type3{
+  font-family: 'Roboto', sans-serif;
+}
+
+.sans {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.lato {
+  font-size: 36px;
+}
+
+.rob {
+  font-size: 24px;
+}
