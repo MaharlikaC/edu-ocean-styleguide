@@ -10,16 +10,9 @@
     </script>
 
     <style>
-        .main {
-        height: 300vh;
-        }
-
-        img {
-            width: 16%;
-        }
 
         .desc {
-            max-width: 50%;
+            width: 60%;
         }
 
         #firstlogo {
@@ -27,18 +20,38 @@
             float: right;
             right:5%;
             top: -60px;
-            width: 35%;
+            width: 30%;
         }
 
         .userestrict {
             position: relative;
-            top: 200px;
-            width: 90%;
+            top: 150px;
+            width: 95%;
         }
 
         .logo {
-            padding: 20px;
-            margin: 5px;
+            padding: 30px;
+            margin: 10px;
+        }
+
+        .logoimgs {
+            display: flex;
+            width: 30%;
+        }
+
+        .logoh_imgs {
+            display: flex;
+            width: 30%;
+        }
+
+        .logov_imgs {
+            display: flex;
+            width: 30%;
+        }
+
+        .wrongimgs {
+            display: flex;
+            width: 23%;
         }
 
         .blk {
@@ -58,6 +71,9 @@
             border-radius: 40px;
         }
 
+        .useswrong {
+            margin: 50px 0;
+        }
         .stretchwidth {
             transform: scaleY(0.7);
         }
@@ -67,7 +83,7 @@
         }
 
         .skew {
-            transform: skewY(20deg);
+            transform: skewY(20deg) scale(0.9);
         }
 
         .rotate {
@@ -101,38 +117,49 @@
         <div class="userestrict">
             <h2 class="subtitle">Correct Usage</h2>
             <p>The Edu-Ocean logo is not to be altered in any way from what is specified here.</p>
-            <div class="useyes">
-                <div>
+            <ul>
+                <li><p>The logo can have a black fill. Use on lighter coloured backgrounds.</p></li>
+                <li><p>The logo can also have white fill. Use against medium-dark coloured backgrounds</p></li>
+                <li><p>If using colour then the fish must be #0378A6(blue) and the waves can be #04BFAD(caribbean green).<br>Use against lighter coloured backgrounds.</p></li>
+            </ul>
+            
+            <div class="useright">
+                <div class="logoimgs">
                     <img src="images/logo_black.svg" class="logo blk">
                     <img src="images/logo_white.svg" class="logo white">
                     <img src="images/logo.svg" class="logo colour">
                 </div>
-                <p>The logo can have a black fill. Use on lighter coloured backgrounds.
-                <p>If using colour then the fish must be #0378A6(blue) and the waves can be #04BFAD(caribbean green), use against lighter coloured backgrounds.</p>
-                <p>The logo can also be white for use against medium to dark coloured backgrounds</p>
-                <p>The logo must have margin of least 15px</p>
+            </div>
+            <div class="wordmark">
+                <div class="logoh_imgs">
+                    <img src="images/wordmark_logo_h_black.svg" class="horizon wordmark logo blk">
+                    <img src="images/wordmark_logo_h_white.svg" class="horizon wordmark logo white">
+                    <img src="images/wordmark_logo_h_color.svg" class="horizon wordmark logo colour">
+                </div>
+                <div class="logov_imgs">
+                    <img src="images/wordmark_logo_v_black.svg" class="horizon wordmark logo blk">
+                    <img src="images/wordmark_logo_v_white.svg" class="horizon wordmark logo white">
+                    <img src="images/wordmark_logo_v_color.svg" class="horizon wordmark logo colour">
+                </div>
             </div>
             <br>
             <br>
             <br>
-            <br>
-            <h2 class="subtitle">Incorrect Usage</h2>
-            <br>
-            <div class="usestretch">
-                <div>
+            <div class="useswrong">
+                <h2 class="subtitle">Incorrect Usage</h2>
+                <ul>
+                    <li><p>The Edu-ocean logo should not be stretched</p></li>
+                    <li><p>The Edu-ocean logo should not be skewed</p></li>
+                    <li><p>The Edu-ocean logo should not be rotated</p></li>
+                </ul>
+                <div class="wrongimgs">
                     <img src="images/logo_white.svg" class="logo stretchwidth">
                     <img src="images/logo_white.svg" class="logo stretchheight">
                     <img src="images/logo_white.svg" class="logo skew">
                     <img src="images/logo_white.svg" class="logo rotate">
                 </div>
-                <p>The edu-ocean logo should not be stretched width wise, height wise, skewed, or rotated</p>
             </div>
         </div>
-
-
-    
-
     </div>
-
 </body>
 </html>
