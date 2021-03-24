@@ -10,25 +10,98 @@
     </script>
 
     <style>
-        /*color page css*/
+
+        .subtitle {
+        margin-bottom: 40px;
+        margin-top: 100px;
+        }
+
+        .ocean {
+            height: 400px;
+            width: 90%;
+            margin: auto;
+            border: 8px white solid;
+            border-radius: 100px;
+            background-color: #1995C9;
+            background-image: linear-gradient(0deg, #0B4E8A 0%, #1995C9 80%);
+        }
         
-        #img {
-        height: 400px;
-        width: 400px;
-        border-radius: 50%;
-        border: 8px white solid;
-        margin: 20px;
-        background-color: #1995C9;
+        .color_row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
-        img {
-        width: 100%;
-        border: 8px white solid;
-
+        .palcolor {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 5px white solid;
+            margin: 15px;
         }
 
+        .palcolor:hover {
+            transform: scale(1.1);
+            color: white;
+            text-shadow: black 1px 1px 2px;
+            box-shadow: rgba(0, 0, 0, 0.474) 2px 5px 3px;
+        }
+
+        .palcolor {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition:0.4s;
+            color: rgba(255, 255, 255, 0);
+        }
+
+        .hex {
+            font-size: 2rem;
+        }
+
+        .name {
+            font-size: 0.9em;
+            opacity: 80%;
+        }
+
+        .b1 {
+            background-color: #034CBC;
+        }
+        .b2 {
+            background-color: #023059;
+        }
+        .b3 {
+            background-color: #0378A6;
+        }
+        .b4 {
+            background-color: #91E0F2;
+        }
+        .b5 {
+            background-color: #98A633;
+        }
+
+        .s1 {
+            background-color: #024959;
+        }
+        .s2 {
+            background-color: #04BFAD;
+        }
+        .s3 {
+            background-color: #F2E205;
+        }
+        .s4 {
+            background-color: #8C7503;
+        }
+        .s5 {
+            background-color: #D96704;
+        }
+
+
+        
         .code {
-        font-size: 43px;
+        font-size: 36px;
         }
 
         .button1 {
@@ -57,11 +130,6 @@
         justify-content:space-around
         }
 
-        .subtitle {
-        margin-bottom: 80px;
-        margin-top: 50px;
-        }
-
     </style>
 </head>
 
@@ -80,28 +148,43 @@
     <div class="main">
         
         <h1 class="title">Colour Palette</h1>
-        <h2 class="subtitle">The colour blue is the most prominent of our brand's colour scheme. It's a delicate combination to the ocean's colour that makes us feel as if we're emerging from the sea.</h2>
-        <div id="img"></div>
-        <h2 class="subtitle">Secondary color</h2>
-        <img src="images/secondary.png">
-        <p class="code">#024959, #04BFAD, #F2E205, #8C7503, #D96704</p>
-        <h2 class="subtitle">Background color</h2>
-        <img src="images/background.png">
-        <p class="code">#034CBC, #023059, #0378A6, #91E0F2, #98A633</p>
-        <h2 class="subtitle">Button color</h2>
+        <h2 class="subtitle">Our Vision</h2>
+        <p class="desc">The colour blue is the most prominent of our brand's colour scheme. It's a delicate combination to the ocean's colour that makes us feel as if we're emerging from the sea.</p>
+        <div class="ocean"></div>
+
+        <h2 class="subtitle">Main Background Colours</h2>
+        <div class="color_row">
+            <div class="b1 palcolor"><div class="hex">#034CBC</div><div class="name">Sapphire</div></div>
+            <div class="b2 palcolor"><div class="hex">#023059</div><div class="name">Prussian Blue</div></div>
+            <div class="b3 palcolor"><div class="hex">#0378A6</div><div class="name">Celadon Blue</div></div>
+            <div class="b4 palcolor"><div class="hex">#91E0F2</div><div class="name">Sky Blue Crayola</div></div>
+            <div class="b5 palcolor"><div class="hex">#98A633</div><div class="name">Citron</div></div>
+        </div>
+
+        <h2 class="subtitle">Secondary Colors</h2>
+        <div class="color_row">
+            <div class="s1 palcolor"><div class="hex">#024959</div><div class="name">Midnight Green Eagle Green</div></div>
+            <div class="s2 palcolor"><div class="hex">#04BFAD</div><div class="name">Light Sea Green</div></div>
+            <div class="s3 palcolor"><div class="hex">#F2E205</div><div class="name">Titanium Yellow</div></div>
+            <div class="s4 palcolor"><div class="hex">#8C7503</div><div class="name">Bistre Brown</div></div>
+            <div class="s5 palcolor"><div class="hex">#D96704</div><div class="name">Chocolate Web</div></div>
+        </div>
+
+        <h2 class="subtitle">Button Style</h2>
         
-    <div class="flex">
-        <div class="button1">
-            <div class="code">Start</div>
+        <div class="flex">
+            <div class="button1">
+                <div class="code">Start</div>
+            </div>
+            <div class="button2">
+                <div class="code">About</div>
+            </div>
         </div>
-        <div class="button2">
-            <div class="code">About</div>
+        <div class="flex">
+            <p class="code">#20BEAD</p>
+            <p class="code">#1995C9</p>
         </div>
-    </div>
-    <div class="flex">
-        <p class="code">#20BEAD</p>
-        <p class="code">#1995C9</p>
-    </div>
+
       
 
     </div>

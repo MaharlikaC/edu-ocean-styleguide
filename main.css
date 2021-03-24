@@ -27,6 +27,7 @@ html, body {
   padding: 8% 8%;
   text-decoration: none;
   color: white;
+  transition: 0.3s;
 }
 
 .nav ul li a.active {
@@ -39,7 +40,6 @@ html, body {
   background-color: #20BEAD;
   color: white;
   text-shadow: black 1px 1px 2px;
-  transition-duration:0.5s;
 }
 
 
